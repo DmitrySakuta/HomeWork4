@@ -11,23 +11,9 @@ namespace ParseDocument
     {
         static void Main(string[] args)
         {
-
-            // SplitText.FindWords(ReaderWriter.Read());
-
-            // SplitText.FindWordsSort(ReaderWriter.Read());
-            //
-            ///  SplitText.FindSentence(ReaderWriter.Read());
-
-            // SplitText.FindSings(ReaderWriter.Read());
-
-            // SplitText.FindMin(ReaderWriter.Read());
-            //SplitText.FindChar(ReaderWriter.Read());
-
             StartWork();
-
-
         }
-        public static void StartWork()
+        private static void StartWork()
         {
             var anser = "";
             var input = 0;
